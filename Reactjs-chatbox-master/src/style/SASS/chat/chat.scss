@@ -1,0 +1,70 @@
+@import '../_MainMixins.scss';
+@import '../_Settings';
+
+.bloc-chat {
+	@extend %bloc-flex;
+	min-height: $l-height;
+}
+
+.user-message {
+	background: $blue; 
+	color: #fff;
+	@extend %bloc-user;
+}
+.user-message:after {
+	left: 93%; 
+	border-top-color: $blue;
+	border-right: 0; 
+	@extend %bloc-user-after;
+}
+
+.not-user-message {
+	background: $light-grey; 
+	color: #000;
+	@extend %bloc-user;
+}
+.not-user-message:after {
+	left: 7%; 
+	border-top-color: $light-grey;
+	border-left: 0; 
+	@extend %bloc-user-after;
+}
+
+.text-area {
+	min-height: $xs-height;
+	min-width: $s-width;
+	padding: 5px;
+	border: none;
+	@include radius(5px);
+}
+
+.smiley {
+	border: 2px solid green;
+}
+
+.btn-send-message {
+	background-color: $blue;
+	color: #fff;
+	float: right;
+	transition: all .1s linear;
+	&:hover {
+		background-color: #fff;
+		color: $blue;
+	}
+}
+
+.info {
+	border: 2px solid red;
+}
+
+.smiley  {
+	padding: 5px;
+	img {
+		height: 20px;
+		width: 20px;
+		cursor: pointer;
+	}
+}
+
+
+

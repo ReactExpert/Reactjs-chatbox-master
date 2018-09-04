@@ -1,0 +1,58 @@
+@import '../_MainMixins.scss';
+@import '../_Settings';
+
+.bloc-connexion {
+	@extend %bloc-flex;
+	height: $l-height;
+}
+
+#root {
+	background-color: $vlight-grey;
+}
+
+.bloc-connexion__connexion {
+	border: 2px solid $blue;
+	height: $m-height;
+	margin: auto;
+	text-align: center;
+	width: $s-width;
+	@include radius(4px);
+
+	label { 
+		color: #fff;
+		font-size: 1.9rem;
+		margin-bottom: 12px;
+	}
+	
+	.bloc-connexion__login {
+		flex-direction: column;
+		height: $s-height;
+		text-align: center;
+		background-color: $blue;
+		@extend %bloc-connexion;
+		input {
+			font-size: 1.6rem;
+			height: $xxs-height;
+			width: $xs-width;
+		}
+	}
+	.bloc-connexion__btn {
+		height: $xs-height;
+		width: 100%;
+		@extend %bloc-connexion;
+		.btn {
+			background-color: $blue;
+			color: #fff;
+			font-size: 1.8rem;
+			height: $xxs-height;
+			width: 13vw;
+			transition: all .5s linear;
+			&:hover {
+				height: 6vh;
+				font-size: 1.5rem;
+				width: 10vw;
+			}
+		}
+	}
+
+}

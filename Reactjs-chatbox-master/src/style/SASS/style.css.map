@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,6DAA6D;ACC7D;;gDAEgD;AAChD,kBAAkB;AAQlB,uBAAuB;AAQvB;;EAEE;AAEF,mBAAmB;AAQnB,wBAAwB;AC/BxB,2CAA2C;AAG3C,+CAA+C;AAE/C,YAAY;AAKZ,YAAY;AAOZ,WAAW;AFfH,oCAAyB;AACzB,oCAAyB;AACzB,0BAAe;AACf,oCAAyB;AEgCjC,aAAa;AACb,IAAK;EACJ,WAAW,EAtCJ,kBAAkB;EAuCzB,cAAc,EAAE,GAAG",
+"sources": ["style.scss","_MainMixins.scss","_Settings.scss"],
+"names": [],
+"file": "style.css"
+}

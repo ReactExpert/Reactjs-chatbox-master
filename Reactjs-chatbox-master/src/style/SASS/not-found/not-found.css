@@ -1,0 +1,32 @@
+/***********************************************
+				MIXINS
+***********************************************/
+/*avec animation*/
+/* avec border-radius*/
+/*
+.[name_of-class] { @include radius(10px); }
+*/
+/*avec box-shadow*/
+/*avec les transitions*/
+/***************** FONTS *****************/
+/***************** VARIABLES *****************/
+/* colors */
+/* height */
+/* width */
+/* GENERAL */
+body {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px; }
+
+.bloc-nfound {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+  .bloc-nfound .text {
+    margin: auto;
+    text-align: center; }
+    .bloc-nfound .text .loupe {
+      height: 40vh;
+      width: 20vw; }
+
+/*# sourceMappingURL=not-found.css.map */

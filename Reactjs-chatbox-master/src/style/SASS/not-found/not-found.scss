@@ -1,0 +1,18 @@
+@import '../_MainMixins.scss';
+@import '../_Settings';
+
+.bloc-nfound {
+	display: flex;
+	flex-direction: column;
+	height: $l-height;
+
+	.text {
+		margin: auto;
+		text-align: center;
+		.loupe  {
+			height: $s-height;
+			width: $s-width;
+		}
+	}
+	
+}

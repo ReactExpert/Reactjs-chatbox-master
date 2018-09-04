@@ -1,0 +1,65 @@
+
+/***************** FONTS *****************/
+$lato : 'Lato', sans-serif;
+
+/***************** VARIABLES *****************/
+
+/* colors */
+$vlight-grey : #E6EBF6;
+$light-grey : #ccc;
+$grey : #DBDBDB;
+$blue : #2b78e4;
+
+/* height */
+$xs-width : 16vw;
+$s-width : 20vw;
+$m-width : 40vw;
+$l-width : 60vw;
+
+
+/* width */
+$xxs-height : 8vh;
+$xs-height: 20vh;
+$s-height : 40vh;
+$m-height : 60vh;
+$l-height : 100vh;
+
+%bloc-connexion {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+%bloc-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+%bloc-user {
+	position: relative; 
+	margin-bottom: 20px;
+	padding: 5px;
+	min-height: $xxs-height;
+	min-width: $s-width;
+	@include radius(5px);
+}
+
+%bloc-user-after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 0; 
+	height: 0; 
+	border: 13px solid transparent;
+	border-bottom: 0;  
+	margin-left: -6.5px; 
+	margin-bottom: -13px;
+}
+
+/* GENERAL */
+body {
+	font-family: $lato;
+	letter-spacing: 2px;
+}
